@@ -48,7 +48,7 @@ function verificarIntento(){
 }
 
 function condicionesIniciales(){
-    asignarTextoElemento('h1','juego del mumero secreto');
+    asignarTextoElemento('h1','juego del numero secreto');
     asignarTextoElemento('p',`Escribe un numero del 1 al ${numeroMaximo}`);
     numeroSecreto = generarNumerosecreto();
     console.log(numeroSecreto);
